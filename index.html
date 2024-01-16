@@ -61,20 +61,81 @@
                             <a href="#weddingGallery" class="nav-item nav-link">Galeria</a>
                             <a href="#mimos" class="nav-item nav-link">Mimos</a>
                         </div>
-
+                        <div class="d-flex align-items-center flex-nowrap pt-xl-0">
+                            <a href="#weddingRsvp" class="btn btn-primary btn-primary-outline-0 py-2 px-4 ms-4">Book
+                                Attendance</a>
+                        </div>
                     </div>
                 </nav>
             </div>
         </div>
     </div>
     <!-- Navbar End -->
-    <div class="container col-12 row ">
-        <div class="col-4"></div>
-        <div class="col-md-4">
-            <img src="img/home.jpeg" class="img-fluid " alt="Image" style="width: auto; max-height: 500px;">
+
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid carousel-header px-0">
+        <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#carouselId" data-bs-slide-to="1"></li>
+                <li data-bs-target="#carouselId" data-bs-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <img src="img/carousel-1.jpg" class="img-fluid" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="p-3 mx-auto animated zoomIn" style="max-width: 900px;">
+                            <h1 class="display-1 text-capitalize text-white mb-3">Chá de bebê do Alaric</h1>
+                            <div class="d-inline-block border-end-0 border-start-0 border-secondary p-2 mb-4"
+                                style="border-style: double;">
+                                <h4 class="text-white text-uppercase fw-bold mb-0" style="letter-spacing: 3px;">04 de
+                                    Fevereiro de 2024</h4>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carousel-2.jpg" class="img-fluid" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="p-3 mx-auto animated zoomIn" style="max-width: 900px;">
+                            <h1 class="display-1 text-capitalize text-white mb-3">Chá de bebê do Alaric</h1>
+                            <div class="d-inline-block border-end-0 border-start-0 border-secondary p-2 mb-4"
+                                style="border-style: double;">
+                                <h4 class="text-white text-uppercase fw-bold mb-0" style="letter-spacing: 3px;">04 de
+                                    Fevereiro de 2024</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carousel-3.jpg" class="img-fluid bg-secondary" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="p-3 mx-auto animated zoomIn" style="max-width: 900px;">
+                            <h1 class="display-1 text-capitalize text-white mb-3">Chá de bebê do Alaric</h1>
+                            <div class="d-inline-block border-end-0 border-start-0 border-secondary p-2 mb-4"
+                                style="border-style: double;">
+                                <h4 class="text-white text-uppercase fw-bold mb-0" style="letter-spacing: 3px;">04 de
+                                    Fevereiro de 2024</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-        <div class="col-4"></div>
     </div>
+    <!-- Carousel End -->
+
 
     <!-- Gallery Start -->
     <div class="container-fluid gallery position-relative py-5" id="weddingGallery">
@@ -89,158 +150,262 @@
                 <h1 class="display-2 text-dark">Galeria</h1>
             </div>
             <div class="row g-4">
-                <div class="col-md-6 col-lg-4 col-xl-3">
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
                     <div class="gallery-item">
                         <div class="gallery-img">
                             <img class="img-fluid w-100" src="img/gallery-1.jpg" alt="">
+                            <div class="hover-style"></div>
+                            <div class="search-icon">
+                                <a href="img/gallery-1.jpg" data-lightbox="Gallery-1" class="my-auto"><i
+                                        class="fas fa-plus btn-primary btn-primary-outline-0 p-3"></i></a>
+                            </div>
                         </div>
+                        <!-- <div class="gallery-overlay bg-light border-secondary border-top-0 p-4" style="border-style: double;">
+                                <h5>Wedding on the beach</h5>
+                                <p class="text-dark mb-0">June 28, 2024</p>
+                            </div> -->
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 col-xl-3">
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
                     <div class="gallery-item">
                         <div class="gallery-img">
                             <img class="img-fluid w-100" src="img/gallery-2.jpg" alt="">
+                            <div class="hover-style"></div>
+                            <div class="search-icon">
+                                <a href="img/gallery-2.jpg" data-lightbox="Gallery-2" class="my-auto"><i
+                                        class="fas fa-plus btn-primary btn-primary-outline-0 p-3"></i></a>
+                            </div>
                         </div>
+                        <!-- <div class="gallery-overlay bg-light border-secondary border-top-0 p-4" style="border-style: double;">
+                                <h5>Wedding on the beach</h5>
+                                <p class="text-dark mb-0">June 28, 2024</p>
+                            </div> -->
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp">
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
                     <div class="gallery-item">
                         <div class="gallery-img">
                             <img class="img-fluid w-100" src="img/gallery-3.jpg" alt="">
+                            <div class="hover-style"></div>
+                            <div class="search-icon">
+                                <a href="img/gallery-3.jpg" data-lightbox="Gallery-3" class="my-auto"><i
+                                        class="fas fa-plus btn-primary btn-primary-outline-0 p-3"></i></a>
+                            </div>
                         </div>
+                        <!-- <div class="gallery-overlay bg-light border-secondary border-top-0 p-4" style="border-style: double;">
+                                <h5>Wedding on the beach</h5>
+                                <p class="text-dark mb-0">June 28, 2024</p>
+                            </div> -->
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 col-xl-3">
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
                     <div class="gallery-item">
                         <div class="gallery-img">
                             <img class="img-fluid w-100" src="img/gallery-4.jpg" alt="">
+                            <div class="hover-style"></div>
+                            <div class="search-icon">
+                                <a href="img/gallery-4.jpg" data-lightbox="Gallery-4" class="my-auto"><i
+                                        class="fas fa-plus btn-primary btn-primary-outline-0 p-3"></i></a>
+                            </div>
                         </div>
+                        <!-- <div class="gallery-overlay bg-light border-secondary border-top-0 p-4" style="border-style: double;">
+                                <h5>Wedding on the beach</h5>
+                                <p class="text-dark mb-0">June 28, 2024</p>
+                            </div> -->
                     </div>
                 </div>
-                    <!-- Gallery end -->
-
-                    <!-- Mimos  start-->
-                    <div class="text-center mx-auto pb-5 mt-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
-                        <h1 class="display-2 text-dark">Mensagem</h1>
-                        <h4 class="display-2 text-dark">para os amigos e familiares</h4>
-                        <p style="color: black;">Queridos amigos e familiares</p>
-
-                        <p style="color: black;">
-                            É com muita alegria e emoção que compartilhamos um capítulo especial de nossas vidas! Desde
-                            o dia
-                            mágico do nosso casamento até agora, temos vivido uma jornada incrível, repleta de amor,
-                            risadas e
-                            inúmeras memórias inesquecíveis.
-                        </p>
-                        <p style="color: black;">
-                            Agora, enquanto aguardamos ansiosamente a chegada do nosso pacotinho de amor,
-                            queremos celebrar este momento único com todos vocês! Convidamos vocês para se
-                            juntarem a nós em um dia cheio de carinho, risos e expectativas no nosso Chá de Bebê.
-                        </p>
-                        <p style="color: black;">
-                            Nossos corações transbordam de gratidão por ter amigos e familiares tão incríveis como vocês
-                            ao
-                            nosso lado. Mal podemos esperar para compartilhar este momento especial, onde cada presente,
-                            sorriso
-                            e abraço se tornarão parte das memórias que nosso pequeno levará para a vida toda.
-
-                            Junte-se a nós para celebrar o amor, a família e a chegada do nosso bebê! Esperamos vê-los
-                            lá para
-                            tornar este dia ainda mais especial.
-
-                        </p>
-                        <p style="color: black; ">
-                            Com amor e gratidão, <span> Larissa, Matheus e Alaric</span>
-                        </p>
-                        <h1 class="display-2 text-dark">Mimos</h1>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="gallery-item">
+                        <div class="gallery-img">
+                            <img class="img-fluid w-100" src="img/gallery-5.jpg" alt="">
+                            <div class="hover-style"></div>
+                            <div class="search-icon">
+                                <a href="img/gallery-5.jpg" data-lightbox="Gallery-5" class="my-auto"><i
+                                        class="fas fa-plus btn-primary btn-primary-outline-0 p-3"></i></a>
+                            </div>
+                        </div>
+                        <!-- <div class="gallery-overlay bg-light border-secondary border-top-0 p-4" style="border-style: double;">
+                                <h5>Wedding on the beach</h5>
+                                <p class="text-dark mb-0">June 28, 2024</p>
+                            </div> -->
                     </div>
-                    <div class="col-12 row class=" container-fluid gallery position-relative py-5 id="mimos">
-                        <div class="col-md-4">
-                            <ul class="list-group">
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    Cueiros
-                                </li>
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    Toalha Fralda
-                                </li>
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    Livros de bebê
-                                </li>
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    Fralda de boca
-                                </li>
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    Fralda de pano
-                                </li>
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    Babador
-                                </li>
-                            </ul>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="gallery-item">
+                        <div class="gallery-img">
+                            <img class="img-fluid w-100" src="img/gallery-6.jpg" alt="">
+                            <div class="hover-style"></div>
+                            <div class="search-icon">
+                                <a href="img/gallery-6.jpg" data-lightbox="Gallery-6" class="my-auto"><i
+                                        class="fas fa-plus btn-primary btn-primary-outline-0 p-3"></i></a>
+                            </div>
                         </div>
-                        <div class="col-md-4">
-                            <ul class="list-group">
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    Luvinhas
-                                </li>
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    Algodão
-                                </li>
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    Potes de higiene
-                                </li>
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    Shampoo
-                                </li>
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    Sabonete líquido
-                                </li>
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    Toalha com capuz
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-md-4">
-                            <ul class="list-group">
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    Creme para mamilos
-                                </li>
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    absorvente para seios
-                                </li>
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    Mamadeiras
-                                </li>
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    Escova paa mamadeiras
-                                </li>
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    Almofada de amamentação
-                                </li>
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    Cadeirão para alimentação
-                                </li>
-                            </ul>
-                        </div>
+                        <!-- <div class="gallery-overlay bg-light border-secondary border-top-0 p-4" style="border-style: double;">
+                                <h5>Wedding on the beach</h5>
+                                <p class="text-dark mb-0">June 28, 2024</p>
+                            </div> -->
                     </div>
-                    <!-- Mimos  end-->
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="gallery-item">
+                        <div class="gallery-img">
+                            <img class="img-fluid w-100" src="img/gallery-7.jpg" alt="">
+                            <div class="hover-style"></div>
+                            <div class="search-icon">
+                                <a href="img/gallery-7.jpg" data-lightbox="Gallery-7" class="my-auto"><i
+                                        class="fas fa-plus btn-primary btn-primary-outline-0 p-3"></i></a>
+                            </div>
+                        </div>
+                        <!-- <div class="gallery-overlay bg-light border-secondary border-top-0 p-4" style="border-style: double;">
+                                <h5>Wedding on the beach</h5>
+                                <p class="text-dark mb-0">June 28, 2024</p>
+                            </div> -->
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
+                    <div class="gallery-item">
+                        <div class="gallery-img">
+                            <img class="img-fluid w-100" src="img/gallery-8.jpg" alt="">
+                            <div class="hover-style"></div>
+                            <div class="search-icon">
+                                <a href="img/gallery-8.jpg" data-lightbox="Gallery-8" class="my-auto"><i
+                                        class="fas fa-plus btn-primary btn-primary-outline-0 p-3"></i></a>
+                            </div>
+                        </div>
+                        <!-- <div class="gallery-overlay bg-light border-secondary border-top-0 p-4" style="border-style: double;">
+                                <h5>Wedding on the beach</h5>
+                                <p class="text-dark mb-0">June 28, 2024</p>
+                            </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Gallery end -->
+    <div class="container text-center mx-auto pb-5 mt-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
+        <h1 class="display-2 text-dark">Mensagem</h1>
+        <h6 class="display-2 text-dark">para os amigos e familiares</h6>
+        <p  class="mt-5"  style="color: black;">Queridos amigos e familiares</p>
+
+        <p style="color: black;">
+            É com muita alegria e emoção que compartilhamos um capítulo especial de nossas vidas! Desde
+            o dia
+            mágico do nosso casamento até agora, temos vivido uma jornada incrível, repleta de amor,
+            risadas e
+            inúmeras memórias inesquecíveis.
+        </p>
+        <p style="color: black;">
+            Agora, enquanto aguardamos ansiosamente a chegada do nosso pacotinho de amor,
+            queremos celebrar este momento único com todos vocês! Convidamos vocês para se
+            juntarem a nós em um dia cheio de carinho, risos e expectativas no nosso Chá de Bebê.
+        </p>
+        <p style="color: black;">
+            Nossos corações transbordam de gratidão por ter amigos e familiares tão incríveis como vocês
+            ao
+            nosso lado. Mal podemos esperar para compartilhar este momento especial, onde cada presente,
+            sorriso
+            e abraço se tornarão parte das memórias que nosso pequeno levará para a vida toda.
+
+            Junte-se a nós para celebrar o amor, a família e a chegada do nosso bebê! Esperamos vê-los
+            lá para
+            tornar este dia ainda mais especial.
+
+        </p>
+        <p style="color: black; ">
+            Com amor e gratidão, <span> Larissa, Matheus e Alaric</span>
+        </p> 
+
+    <!-- Mimos  start-->
+    <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
+        <h1 class="display-2 text-dark">Mimos</h1>
+    </div>
+    <div class="col-12 row class=" container-fluid gallery position-relative py-5 id="mimos">
+        <div class="col-md-4">
+            <ul class="list-group">
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Cueiros
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Toalha Fralda
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Livros de bebê
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Fralda de boca
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Fralda de pano
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Babador
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-4">
+            <ul class="list-group">
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Luvinhas
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Algodão
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Potes de higiene
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Shampoo
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Sabonete líquido
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Toalha com capuz
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-4">
+            <ul class="list-group">
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Creme para mamilos
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    absorvente para seios
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Mamadeiras
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Escova paa mamadeiras
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Almofada de amamentação
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Cadeirão para alimentação
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- Mimos  end-->
 
 
-                    <!-- Back to Top -->
-                    <a href="#" class="btn btn-primary btn-primary-outline-0 btn-md-square back-to-top"><i
-                            class="fa fa-arrow-up"></i></a>
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary btn-primary-outline-0 btn-md-square back-to-top"><i
+            class="fa fa-arrow-up"></i></a>
 
 
-                    <!-- JavaScript Libraries -->
-                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-                    <script src="lib/wow/wow.min.js"></script>
-                    <script src="lib/easing/easing.min.js"></script>
-                    <script src="lib/waypoints/waypoints.min.js"></script>
-                    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
 
 
-                    <!-- Template Javascript -->
-                    <script src="js/main.js"></script>
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
 </body>
 
 </html>
